@@ -30,14 +30,28 @@ A modern and responsive Restaurant Application that allows users to explore menu
 Restaurant-APP/
 │
 ├── backend/
-│   ├── config/
-│   ├── controllers/
-│   ├── routes/
-│   ├── schema.sql
-│   └── server.js
+│ ├── config/
+│ ├── controllers/
+│ ├── routes/
+│ ├── schema.sql
+│ └── server.js
 │
 ├── frontend/
-├── package.json
+| ├── src/
+| | ├── components/
+| | ├── pages/
+| | ├── services/
+| | ├── App.css
+| | ├── App.jsx
+| | └── main.jsx
+| ├── package.json
+| └── index.html
+|
+├── main/
+| ├── app.js
+| ├── foodForm.html
+| └── style.css
+|
 └── README.md
 ```
 
