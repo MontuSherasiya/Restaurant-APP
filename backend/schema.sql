@@ -1,10 +1,3 @@
--- =============================================
--- schema.sql — Restaurant Manager
--- Week 4: MySQL Database Schema
--- Run this file in MySQL to set up the database
--- =============================================
-
--- Create and select database
 CREATE DATABASE IF NOT EXISTS restaurant_db;
 USE restaurant_db;
 
