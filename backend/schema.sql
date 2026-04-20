@@ -20,7 +20,6 @@ CREATE TABLE IF NOT EXISTS foods (
   FOREIGN KEY (category_id) REFERENCES categories(id) ON DELETE CASCADE
 );
 
--- Seed default categories
 INSERT IGNORE INTO categories (name) VALUES
   ('Starters'),
   ('Main Course'),
@@ -28,7 +27,6 @@ INSERT IGNORE INTO categories (name) VALUES
   ('Beverages'),
   ('Fast Food');
 
--- Seed sample food items
 INSERT IGNORE INTO foods (name, price, category_id, description) VALUES
   ('Paneer Tikka',       180.00, 1, 'Grilled cottage cheese with spices'),
   ('Butter Chicken',     320.00, 2, 'Creamy tomato-based chicken curry'),
